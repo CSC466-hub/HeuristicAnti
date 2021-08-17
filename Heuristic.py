@@ -23,7 +23,7 @@ for entry in os.scandir(os.getcwd()):
 		
 		for i in array:
 			if array.count(i) > 2:
-				print("")
+				print("Three or more functions share a memory address.")
 				
 				break
 				
@@ -51,6 +51,6 @@ for entry in os.scandir(os.getcwd()):
 		
 			if arrayHelper.count(i) > 2:
 			
-				print("")
+				print("Three or more functions have the same offset.")
 				
 				break
